@@ -44,6 +44,7 @@ int main()
 	// Determine which manipulators are needed to control numerical output
 
 	// Output results
+
 	cout << fixed << showpoint << setprecision(1);
 
 	cout << setw(15) << left << "NAME" << setw(5) << right << "SCORE" << endl;
@@ -51,3 +52,7 @@ int main()
 	cout << setw(15) << left << name2 << setw(5) << right << score2 << endl;
 	return 0;
 }
+
+// 1
+// 1
+// 1
